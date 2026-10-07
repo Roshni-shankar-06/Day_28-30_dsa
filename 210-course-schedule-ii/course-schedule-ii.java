@@ -14,12 +14,4 @@ public class Solution {
         for (int[] pair : prerequisites) {
             int course = pair[0];
             int prereq = pair[1];
-            adjList.get(prereq).add(course);
-            inDegree[course]++;
-        }
-        
-        // 2. Queue up all courses that have no prerequisites
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < numCourses; i++) {
-          
-     
+         
