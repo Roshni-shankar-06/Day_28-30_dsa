@@ -9,9 +9,4 @@ public class Solution {
         for (int i = 0; i < numCourses; i++) {
             adjList.add(new ArrayList<>());
         }
-        
-        // prerequisites[i] = [course, prereq] -> meaning: prereq -> course
-        for (int[] pair : prerequisites) {
-            int course = pair[0];
-            int prereq = pair[1];
-         
+      
