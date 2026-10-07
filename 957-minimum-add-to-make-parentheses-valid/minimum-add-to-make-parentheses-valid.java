@@ -3,7 +3,4 @@ class Solution {
         int openNeeded = 0;
         int closeNeeded = 0;
         
-        for (char ch : s.toCharArray()) {
-            if (ch == '(') {
-                closeNeeded++;
-          
+     
