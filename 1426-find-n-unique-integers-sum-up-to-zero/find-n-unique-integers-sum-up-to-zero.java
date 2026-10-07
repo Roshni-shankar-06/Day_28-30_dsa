@@ -7,6 +7,3 @@ class Solution {
             ans[i] = i * 2 - n + 1;
         }
         
-        return ans;
-    }
-}
