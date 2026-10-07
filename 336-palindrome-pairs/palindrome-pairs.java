@@ -31,13 +31,4 @@ class Solution {
                     if (map.containsKey(revLeft) && map.get(revLeft) != i) {
                         result.add(Arrays.asList(i, map.get(revLeft)));
                     }
-                }
-            }
-        }
-
-        return result;
-    }
-
-    private boolean isPalindrome(String s) {
-        int left = 0, right = s.length() - 1;
-     
+           
