@@ -22,11 +22,4 @@ class WordDictionary {
                 curr.children[index] = new TrieNode();
             }
             curr = curr.children[index];
-        }
-        curr.isWord = true;
-    }
     
-    /** Returns true if there is any string in the data structure that matches word. */
-    public boolean search(String word) {
-        return dfs(word, 0, root);
-  
