@@ -35,12 +35,5 @@ public class Solution {
             order[index++] = current;
             
             // Reduce in-degree for all neighboring dependencies
-            for (int neighbor : adjList.get(current)) {
-                inDegree[neighbor]--;
-                if (inDegree[neighbor] == 0) {
-                    queue.offer(neighbor);
-                }
-            }
-        }
-        
+           
      
