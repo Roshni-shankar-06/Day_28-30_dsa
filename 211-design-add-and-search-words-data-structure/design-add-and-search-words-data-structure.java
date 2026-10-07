@@ -9,15 +9,5 @@ class WordDictionary {
     private TrieNode root;
 
     /** Initializes the data structure object. */
-    public WordDictionary() {
-        root = new TrieNode();
-    }
-    
-    /** Adds a word into the data structure. */
-    public void addWord(String word) {
-        TrieNode curr = root;
-        for (char c : word.toCharArray()) {
-         
-   
   
    
