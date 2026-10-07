@@ -36,12 +36,4 @@ class WordDictionary {
         if (curr == null) return false;
         
         // Base case: If we reached the end of the word, check if it marks a valid word
-        if (index == word.length()) {
-            return curr.isWord;
-        }
-        
-        char c = word.charAt(index);
-        
-        // If it's a wildcard, we must explore all 26 possible branches
-        if (c == '.') {
-           
+      
