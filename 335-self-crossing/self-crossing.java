@@ -14,10 +14,3 @@ class Solution {
             // Case 3: Current line crosses the 5th line before it
             if (i >= 5 && distance[i - 4] <= distance[i - 2] && distance[i - 2] <= distance[i] + distance[i - 4] 
                 && distance[i - 1] <= distance[i - 3] && distance[i - 3] <= distance[i - 1] + distance[i - 5]) {
-                return true;
-            }
-        }
-        
-        return false;
-    }
-}
