@@ -30,10 +30,5 @@ public class Solution {
         int[] order = new int[numCourses];
         int index = 0;
         
-        while (!queue.isEmpty()) {
-            int current = queue.poll();
-            order[index++] = current;
-            
-            // Reduce in-degree for all neighboring dependencies
-           
+      
      
