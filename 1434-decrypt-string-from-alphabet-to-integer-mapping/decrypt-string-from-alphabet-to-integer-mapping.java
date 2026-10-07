@@ -7,7 +7,4 @@ class Solution {
             if (i + 2 < n && s.charAt(i + 2) == '#') {
                 int num = Integer.parseInt(s.substring(i, i + 2));
                 sb.append((char) ('a' + num - 1));
-                i += 3;
-            } else {
-                int num = s.charAt(i) - '0';
-                sb.append((char) ('a' + num - 1));
+              
