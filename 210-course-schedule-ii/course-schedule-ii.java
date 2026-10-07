@@ -21,14 +21,5 @@ public class Solution {
         // 2. Queue up all courses that have no prerequisites
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < numCourses; i++) {
-            if (inDegree[i] == 0) {
-                queue.offer(i);
-            }
-        }
-        
-        // 3. Process the queue to build the topological order
-        int[] order = new int[numCourses];
-        int index = 0;
-        
-      
+          
      
