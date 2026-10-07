@@ -6,7 +6,4 @@ class Solution {
         for (char ch : s.toCharArray()) {
             if (ch == '(') {
                 closeNeeded++;
-            } else {
-                if (closeNeeded > 0) {
-                    closeNeeded--;
-             
+          
