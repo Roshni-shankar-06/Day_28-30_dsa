@@ -26,13 +26,5 @@ public class Solution {
             }
         }
         
-        // 3. Process the queue to build the topological order
-        int[] order = new int[numCourses];
-        int index = 0;
-        
-        while (!queue.isEmpty()) {
-            int current = queue.poll();
-            order[index++] = current;
-            
-            
+     
      
