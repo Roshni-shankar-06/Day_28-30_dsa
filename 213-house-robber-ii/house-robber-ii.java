@@ -12,9 +12,4 @@ class Solution {
         // Scenario 2: Rob from the second house to the last house (exclude first house)
         int max2 = robHelper(nums, 1, nums.length - 1);
         
-        return Math.max(max1, max2);
-    }
-    
-    private int robHelper(int[] nums, int start, int end) {
-        int prev2 = 0; // Represents dp[i-2]
        
