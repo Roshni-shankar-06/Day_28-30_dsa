@@ -4,9 +4,4 @@ class Solution {
         
         for (int i = 3; i < distance.length; ++i) {
             // Case 1: Current line crosses the 3rd line before it
-            if (distance[i - 2] <= distance[i] && distance[i - 1] <= distance[i - 3]) {
-                return true;
-            }
-            // Case 2: Current line meets the 4th line before it
-            if (i >= 4 && distance[i - 1] == distance[i - 3] && distance[i - 2] <= distance[i] + distance[i - 4]) {
-           
+        
