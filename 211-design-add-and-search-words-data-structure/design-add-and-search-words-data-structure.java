@@ -17,15 +17,7 @@ class WordDictionary {
     public void addWord(String word) {
         TrieNode curr = root;
         for (char c : word.toCharArray()) {
-            int index = c - 'a';
-            if (curr.children[index] == null) {
-                curr.children[index] = new TrieNode();
-            }
-            curr = curr.children[index];
-        }
-        curr.isWord = true;
-    }
-    
+         
    
   
    
