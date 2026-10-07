@@ -44,10 +44,4 @@ class WordDictionary {
         
         // If it's a wildcard, we must explore all 26 possible branches
         if (c == '.') {
-            for (TrieNode child : curr.children) {
-                if (child != null && dfs(word, index + 1, child)) {
-                    return true;
-                }
-            }
-            return false;
-        
+           
