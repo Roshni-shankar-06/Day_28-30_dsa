@@ -19,12 +19,4 @@ class Solution {
                 // Case 1: left is palindrome, and reverse of right exists in map
                 if (isPalindrome(left)) {
                     String revRight = new StringBuilder(right).reverse().toString();
-                    if (map.containsKey(revRight) && map.get(revRight) != i) {
-                        result.add(Arrays.asList(map.get(revRight), i));
-                    }
-                }
-
-                // Case 2: right is palindrome, and reverse of left exists in map
-                // (j != word.length() prevents duplicate checking for j == word.length())
-                if (j != word.length() && isPalindrome(right)) {
                    
