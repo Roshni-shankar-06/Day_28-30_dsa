@@ -13,7 +13,3 @@ class Solution {
                     openNeeded++;
                 }
             }
-        }
-        return openNeeded + closeNeeded;
-    }
-}
