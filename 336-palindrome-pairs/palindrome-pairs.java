@@ -13,10 +13,4 @@ class Solution {
         for (int i = 0; i < words.length; i++) {
             String word = words[i];
             for (int j = 0; j <= word.length(); j++) {
-                String left = word.substring(0, j);
-                String right = word.substring(j);
-
-                // Case 1: left is palindrome, and reverse of right exists in map
-                if (isPalindrome(left)) {
-                    String revRight = new StringBuilder(right).reverse().toString();
-                   
+               
