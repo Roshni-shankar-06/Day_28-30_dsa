@@ -11,10 +11,3 @@ class Solution {
             } else {
                 int num = s.charAt(i) - '0';
                 sb.append((char) ('a' + num - 1));
-                i += 1;
-            }
-        }
-        
-        return sb.toString();
-    }
-}
