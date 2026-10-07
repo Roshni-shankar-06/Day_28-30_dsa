@@ -9,7 +9,4 @@ class Solution {
             } else {
                 if (closeNeeded > 0) {
                     closeNeeded--;
-                } else {
-                    openNeeded++;
-                }
-            }
+             
