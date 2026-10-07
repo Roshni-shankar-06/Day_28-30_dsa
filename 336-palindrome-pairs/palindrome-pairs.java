@@ -27,8 +27,4 @@ class Solution {
                 // Case 2: right is palindrome, and reverse of left exists in map
                 // (j != word.length() prevents duplicate checking for j == word.length())
                 if (j != word.length() && isPalindrome(right)) {
-                    String revLeft = new StringBuilder(left).reverse().toString();
-                    if (map.containsKey(revLeft) && map.get(revLeft) != i) {
-                        result.add(Arrays.asList(i, map.get(revLeft)));
-                    }
-           
+                   
