@@ -26,15 +26,6 @@ class WordDictionary {
         curr.isWord = true;
     }
     
-    /** Returns true if there is any string in the data structure that matches word. */
-    public boolean search(String word) {
-        return dfs(word, 0, root);
-    }
-    
-    // Helper function to handle exact matching and '.' wildcards via backtracking
-    private boolean dfs(String word, int index, TrieNode curr) {
-        if (curr == null) return false;
-        
-      
+   
   
    
