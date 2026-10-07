@@ -50,10 +50,4 @@ class WordDictionary {
                 }
             }
             return false;
-        } else {
-            // Standard exact character matching path
-            int nextIndex = c - 'a';
-            return dfs(word, index + 1, curr.children[nextIndex]);
-        }
-    }
-}
+        
