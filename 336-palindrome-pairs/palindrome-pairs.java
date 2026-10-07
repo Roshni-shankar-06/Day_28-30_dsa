@@ -8,9 +8,4 @@ class Solution {
         Map<String, Integer> map = new HashMap<>();
         for (int i = 0; i < words.length; i++) {
             map.put(words[i], i);
-        }
-
-        for (int i = 0; i < words.length; i++) {
-            String word = words[i];
-            for (int j = 0; j <= word.length(); j++) {
-               
+       
