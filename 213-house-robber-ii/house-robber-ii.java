@@ -17,9 +17,4 @@ class Solution {
     
     private int robHelper(int[] nums, int start, int end) {
         int prev2 = 0; // Represents dp[i-2]
-        int prev1 = 0; // Represents dp[i-1]
-        
-        for (int i = start; i <= end; i++) {
-            int current = Math.max(prev1, prev2 + nums[i]);
-         
-}
+       
