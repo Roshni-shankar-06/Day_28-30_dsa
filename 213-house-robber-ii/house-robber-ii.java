@@ -7,9 +7,4 @@ class Solution {
             return nums[0];
         }
         
-        // Scenario 1: Rob from the first house to the second-to-last house (exclude last house)
-        int max1 = robHelper(nums, 0, nums.length - 2);
-        // Scenario 2: Rob from the second house to the last house (exclude first house)
-        int max2 = robHelper(nums, 1, nums.length - 1);
-        
        
