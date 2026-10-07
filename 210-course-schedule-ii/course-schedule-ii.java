@@ -43,11 +43,4 @@ public class Solution {
             }
         }
         
-        // 4. Verify if a cycle exists (not all courses could be processed)
-        if (index == numCourses) {
-            return order;
-        } else {
-            return new int[0];
-        }
-    }
-}
+     
