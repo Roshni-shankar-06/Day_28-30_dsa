@@ -21,10 +21,5 @@ class Solution {
         
         for (int i = start; i <= end; i++) {
             int current = Math.max(prev1, prev2 + nums[i]);
-            prev2 = prev1;
-            prev1 = current;
-        }
-        
-        return prev1;
-    }
+         
 }
