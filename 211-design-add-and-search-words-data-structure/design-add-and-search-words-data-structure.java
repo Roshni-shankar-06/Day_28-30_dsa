@@ -6,11 +6,4 @@ class WordDictionary {
         boolean isWord = false;
     }
     
-    private TrieNode root;
-
-    /** Initializes the data structure object. */
-    public WordDictionary() {
-        root = new TrieNode();
-    }
-    
    
