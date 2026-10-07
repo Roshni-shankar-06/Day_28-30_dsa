@@ -13,9 +13,4 @@ class WordDictionary {
         root = new TrieNode();
     }
     
-    /** Adds a word into the data structure. */
-    public void addWord(String word) {
-        TrieNode curr = root;
-        for (char c : word.toCharArray()) {
-            int index = c - 'a';
-         
+   
