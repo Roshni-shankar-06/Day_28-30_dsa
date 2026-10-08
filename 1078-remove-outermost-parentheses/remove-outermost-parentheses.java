@@ -9,16 +9,4 @@ class Solution {
                 if (opened > 0) {
                     ans.append(c);
                 }
-                opened++;
-            } else {
-                opened--;
-                // If opened > 0 after decrementing, this ')' is NOT the outermost one
-                if (opened > 0) {
-                    ans.append(c);
-                }
-            }
-        }
-        
-        return ans.toString();
-    }
-}
+
