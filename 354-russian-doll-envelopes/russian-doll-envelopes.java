@@ -21,9 +21,4 @@ public class Solution {
         
         for (int[] envelope : envelopes) {
             int height = envelope[1];
-            
-            // Binary search to find the insertion index
-            int index = Arrays.binarySearch(dp, 0, len, height);
-            
-            // If height is not found, binarySearch returns -(insertion point) - 1
          
