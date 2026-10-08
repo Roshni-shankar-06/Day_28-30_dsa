@@ -9,8 +9,4 @@ class Solution {
       int[] sums = new int[m];
       for (int j = baseCol; j < n; ++j) {
         for (int i = 0; i < m; ++i)
-          sums[i] += matrix[i][j];
-        // Find the maximum sum <= k of all the subarrays.
-        TreeSet<Integer> accumulate = new TreeSet<>(Arrays.asList(0));
-        int prefix = 0;
-      
+        
