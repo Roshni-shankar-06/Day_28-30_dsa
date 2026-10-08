@@ -13,7 +13,4 @@ class Solution {
         // Find the maximum sum <= k of all the subarrays.
         TreeSet<Integer> accumulate = new TreeSet<>(Arrays.asList(0));
         int prefix = 0;
-        for (final int sum : sums) {
-          prefix += sum;
-          final Integer lo = accumulate.ceiling(prefix - k);
       
