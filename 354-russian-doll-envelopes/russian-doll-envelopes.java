@@ -11,9 +11,4 @@ public class Solution {
             if (a[0] == b[0]) {
                 return b[1] - a[1]; // Descending height
             } else {
-                return a[0] - b[0]; // Ascending width
-            }
-        });
-        
-        // 2. Find the Longest Increasing Subsequence (LIS) on heights
-     
+               
