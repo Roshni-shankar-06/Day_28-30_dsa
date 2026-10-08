@@ -6,7 +6,4 @@ class Solution {
 
     for (int baseCol = 0; baseCol < n; ++baseCol) {
       // sums[i] := sum(matrix[i][baseCol..j])
-      int[] sums = new int[m];
-      for (int j = baseCol; j < n; ++j) {
-        for (int i = 0; i < m; ++i)
-        
+     
