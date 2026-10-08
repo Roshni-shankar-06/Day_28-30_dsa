@@ -15,8 +15,3 @@ class Solution:
     area2 = (bx2 - bx1) * (by2 - by1)
 
     overlap_width = max(min(ax2, bx2) - max(ax1, bx1), 0)
-    overlap_height = max(min(ay2, by2) - max(ay1, by1), 0)
-
-    overlap_area = overlap_width * overlap_height
-
-    return area1 + area2 - overlap_area
