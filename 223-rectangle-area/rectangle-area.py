@@ -10,8 +10,3 @@ class Solution:
       by1: int,
       bx2: int,
       by2: int,
-  ) -> int:
-    area1 = (ax2 - ax1) * (ay2 - ay1)
-    area2 = (bx2 - bx1) * (by2 - by1)
-
-    overlap_width = max(min(ax2, bx2) - max(ax1, bx1), 0)
