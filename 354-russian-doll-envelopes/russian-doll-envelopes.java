@@ -16,9 +16,4 @@ public class Solution {
         });
         
         // 2. Find the Longest Increasing Subsequence (LIS) on heights
-        int[] dp = new int[envelopes.length];
-        int len = 0;
-        
-        for (int[] envelope : envelopes) {
-            int height = envelope[1];
-         
+     
