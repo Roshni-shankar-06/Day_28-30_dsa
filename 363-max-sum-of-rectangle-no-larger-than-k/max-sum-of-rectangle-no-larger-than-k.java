@@ -16,7 +16,4 @@ class Solution {
         for (final int sum : sums) {
           prefix += sum;
           final Integer lo = accumulate.ceiling(prefix - k);
-          if (lo != null)
-            ans = Math.max(ans, prefix - lo);
-          accumulate.add(prefix);
-     
+      
