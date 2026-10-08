@@ -9,8 +9,4 @@ class Solution:
         while left_node:
             left_height += 1
             left_node = left_node.left
-            
-        # Calculate the rightmost height
-        right_height = 0
-        right_node = root
-      
+        
