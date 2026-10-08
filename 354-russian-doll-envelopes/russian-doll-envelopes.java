@@ -34,10 +34,4 @@ public class Solution {
             
             // If the element is appended to the end, increase the LIS length
             if (index == len) {
-                len++;
-            }
-        }
-        
-        return len;
-    }
-}
+           
