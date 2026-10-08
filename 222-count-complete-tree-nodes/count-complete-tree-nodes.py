@@ -5,8 +5,4 @@ class Solution:
         
         # Calculate the leftmost height
         left_height = 0
-        left_node = root
-        while left_node:
-            left_height += 1
-            left_node = left_node.left
-        
+      
