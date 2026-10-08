@@ -19,10 +19,4 @@ class Solution {
           if (lo != null)
             ans = Math.max(ans, prefix - lo);
           accumulate.add(prefix);
-        }
-      }
-    }
-
-    return ans;
-  }
-}
+     
