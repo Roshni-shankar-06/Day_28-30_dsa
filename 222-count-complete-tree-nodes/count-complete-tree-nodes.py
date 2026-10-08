@@ -18,8 +18,4 @@ class Solution:
             right_node = right_node.right
             
         # If the heights are equal, it's a perfect binary tree
-        if left_height == right_height:
-            return (1 << left_height) - 1  # Equivalent to 2^left_height - 1
-            
-        # If they are not equal, recurse on left and right subtrees
-        return 1 + self.countNodes(root.left) + self.countNodes(root.right)
+      
