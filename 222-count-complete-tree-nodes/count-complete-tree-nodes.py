@@ -13,9 +13,4 @@ class Solution:
         # Calculate the rightmost height
         right_height = 0
         right_node = root
-        while right_node:
-            right_height += 1
-            right_node = right_node.right
-            
-        # If the heights are equal, it's a perfect binary tree
       
