@@ -26,12 +26,4 @@ public class Solution {
             int index = Arrays.binarySearch(dp, 0, len, height);
             
             // If height is not found, binarySearch returns -(insertion point) - 1
-            if (index < 0) {
-                index = -(index + 1);
-            }
-            
-            dp[index] = height;
-            
-            // If the element is appended to the end, increase the LIS length
-            if (index == len) {
-           
+         
